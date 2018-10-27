@@ -82,6 +82,7 @@ h3 {
     line-height: 145%;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -192,6 +193,13 @@ section {
     padding-bottom: 10px;
 }
 
+.fa-calendar-alt, 
+.fa-clock,
+.fa-cannabis,
+.fa-utensils {
+    color: #e67e22;
+}
+
 /* MEALS SECTION */
 .meals-showcase {
     list-style: none;
@@ -207,10 +215,26 @@ section {
 .meal-photo {
     width: 100%;
     margin:0;
+    overflow: hidden;
+    background: #000;
 
 }
 
 .meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.02);
+    
+}
+
+.section-meals {
+    padding: 0;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+    transition: transform 1s, opacity 1s;
+    
 }
