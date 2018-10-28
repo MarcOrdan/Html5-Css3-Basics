@@ -303,3 +303,8 @@ section {
     width: auto;
     margin-right: 10px;
 }
+
+/* CITIES SECTION */
+.city-name {
+    text-align:left;
+}
