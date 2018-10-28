@@ -111,6 +111,20 @@ h3 {
     padding: 1%;
 }
 
+/* LINKS */
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s
+}
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
 
 /* BUTTONS */
 .btn:link,
@@ -209,7 +223,10 @@ section {
 .fa-calendar-alt, 
 .fa-clock,
 .fa-cannabis,
-.fa-utensils {
+.fa-utensils,
+.fa-users,
+.fa-star,
+.fa-twitter {
     color: #e67e22;
 }
 
@@ -304,7 +321,31 @@ section {
     margin-right: 10px;
 }
 
+#playstore{
+    width: 168.75px;
+}
+
+.button-app:link,
+.button-app:visited {
+    border: 0;
+}
+
 /* CITIES SECTION */
 .city-name {
     text-align:left;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 10px;
+}
+
+.city-feature i {
+    display: inline-block;
+    width: 30px;
 }
