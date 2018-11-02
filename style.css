@@ -144,12 +144,12 @@ a:active{
 .btn-full:visited {
     background-color: #e67e22;
     border: 1px solid #e67e22;
-    color: #fff;
+    color: #fff;    
     margin-right: 15px;
 }
 
 .btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:visited{
     border: 1px solid #e67e22;
     color:  #e67e22;
 }
@@ -446,4 +446,48 @@ cite img {
     padding: 0px 10px ;
 }
 
+/* CONTACT FORM */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
 
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+
+.sub-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+    width: 150px;
+    text-align: center;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;    
+    margin-right: 15px;
+}
+
+.sub-btn:hover,
+.sub-btn:active {
+    border: 1px solid #8b3f00;
+    background-color:#8b3f00;
+}
+
+input[type=text]{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline:none;
+}
